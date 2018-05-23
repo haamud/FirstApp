@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
             p.show();
+                Toast.makeText(MainActivity.this, ""+textView.getText(), Toast.LENGTH_LONG).show();
             }
         });
     }
